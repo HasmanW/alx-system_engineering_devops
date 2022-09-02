@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 753 4-empty/hello
+chmod 753 /0x01-shell_permissions/4-empty/hello
