@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Displays "Best School" 10 times
+
+
+h=0
+m=1
+while [[ $h -le 12 ]]
+do
+	printf "Hour: %d\n" $h
+	while [[ $m -le 59 ]]
+	do
+		printf "%d\n" $m
+		m=$(( m+1 ))
+	done
+	h=$(( h+1 ))
+	m=1
+done

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# access log
+
+FILE="apache-access.log"
+awk -F' ' '{print $1" "$9 }' "$FILE"
